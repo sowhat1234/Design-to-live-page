@@ -47,6 +47,15 @@
     .card .card-text2 {
         padding-block-end: 20px;
     }
+    .img-logo {
+        margin-inline-start: 15px;
+    }
+    .modal-content .img-modal {
+        width: 90%;
+    }
+    .modal-content .img-modal {
+        display: table;
+    }
 }
 
 
@@ -92,6 +101,10 @@
     }
     .card .card-image {
         padding-inline-end: 35px
+    }
+    .modal-content .img-modal {
+        width: 80%;
+        height: 300px;
     }
 }
 

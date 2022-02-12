@@ -28,8 +28,29 @@
     /* 15% from the top and centered */
     padding: 20px;
     border: 1px solid #888;
-    width: 80%;
+    width: 60%;
+    height: 60%;
+    display: table;
     /* Could be more or less, depending on screen size */
+}
+
+.modal-content .img-modal {
+    width: 60%;
+}
+
+.modal-content .card-title {
+    text-transform: uppercase;
+    padding-inline-end: 25px;
+    font-weight: 400;
+}
+
+.modal-content .card-text {
+    padding-block-end: 10px;
+    padding-block-start: 10px;
+}
+
+.modal-content .card-text2 {
+    padding-block-end: 10px;
 }
 
 
