@@ -1,0 +1,20 @@
+/* SETUP  */
+
+@import 'setup/vars.css';
+@import 'setup/typography.css';
+
+/* COMPONENTS */
+
+@import 'components/cards.css';
+@import 'components/main-header.css';
+@import 'components/pagination.css';
+@import 'components/footer.css';
+@import 'components/screen.css';
+@import 'components/modal.css';
+
+/* BASE */
+
+@import 'basic/layouts.css';
+@import 'basic/base.css';
+@import 'basic/helpers.css';
+@import 'basic/mq.css';

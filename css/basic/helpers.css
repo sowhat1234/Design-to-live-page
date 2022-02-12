@@ -1,0 +1,48 @@
+/* flex */
+
+.flex {
+    display: flex;
+}
+
+.flex.space-between {
+    justify-content: space-between;
+}
+
+.flex.align-center {
+    align-items: center;
+}
+
+.flex.align-items-start {
+    align-items: flex-start;
+}
+
+.flex.justtify-center {
+    justify-content: center;
+}
+
+.flex.flex-direction-c {
+    flex-direction: column;
+}
+
+.flex.space-around {
+    justify-content: space-around;
+}
+
+.flex.space-evenly {
+    justify-content: space-evenly;
+}
+
+
+/* list */
+
+.clean-list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.clean-underline {
+    text-decoration: none;
+    color: #000;
+    font-size: 1.2em;
+}

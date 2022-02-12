@@ -1,0 +1,10 @@
+.main-layout {
+    margin: 0px auto;
+    max-width: 1043px;
+    /* margin-right: 1.6rem; */
+    /* margin-left: 1.6rem; */
+}
+
+.card-layout>* {
+    margin-bottom: 76px;
+}

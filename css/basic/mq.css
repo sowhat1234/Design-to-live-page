@@ -1,0 +1,105 @@
+/* MOBILE ONLY */
+
+@media (max-width: 940px) {
+    .main-nav {
+        position: fixed;
+        top: 0;
+        right: 0;
+        flex-direction: column;
+        background-color: rgb(255 255 255 / 90%);
+        height: 100vh;
+        min-width: 230px;
+        border-left: solid 1px var(--clr6);
+        transform: translateX(100%);
+        transition: transform .6s, box-shadow .6s;
+    }
+    body.menu-open .main-nav {
+        box-shadow: -9px -11px 20px 3px #cccccca6;
+        transform: translateX(0%);
+    }
+    .main-nav a {
+        display: block;
+        text-align: center;
+        padding: 1.125rem 1.125rem;
+    }
+    .main-nav li {
+        border-bottom: solid 1px;
+        padding: 1.125rem 1.125rem;
+    }
+    .fa.fa-bars {
+        margin-inline-end: 20px;
+        font-size: 1.45em;
+    }
+    .main-content .card {
+        display: block;
+    }
+    .card-image {
+        width: 100%;
+        padding-inline-end: 15px;
+        padding-inline-start: 15px;
+    }
+    .card .text-position {
+        padding-inline-start: 15px;
+    }
+    .card-layout>* {
+        margin-bottom: 26px;
+    }
+    .card .card-text2 {
+        padding-block-end: 20px;
+    }
+}
+
+
+/* SMALL */
+
+@media (min-width: 680px) {
+    .main-layout {
+        max-width: 600px;
+    }
+}
+
+
+/* MEDIUM */
+
+@media (min-width: 940px) {
+    .main-layout {
+        max-width: 860px;
+    }
+    .border-first-menu-item.border-bottom:first-child {
+        border-bottom: solid 3px;
+        border-bottom-color: #58C93A;
+        color: #58C93A;
+    }
+    .border-first-menu-item {
+        border-inline-start: solid 1px;
+        border-color: var(--clr2);
+    }
+    .border-underline {
+        padding-block-start: 40px;
+        padding-inline-end: 30px;
+        padding-inline-start: 40px;
+        padding-block-end: 40px;
+        border-inline-end: solid 1px;
+        border-color: var(--clr2);
+        color: white;
+    }
+    .main-header .clean-list>*:not(:last-child) {
+        margin-inline-end: 10px;
+        margin-inline-start: 10px;
+    }
+    .fa.fa-bars {
+        display: none;
+    }
+    .card .card-image {
+        padding-inline-end: 35px
+    }
+}
+
+
+/* LARGE */
+
+@media (min-width: 1140px) {
+    .main-layout {
+        max-width: 1060px;
+    }
+}

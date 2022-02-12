@@ -1,0 +1,30 @@
+.previous {
+    background-color: white;
+    color: #C2C2C2;
+    font-size: 1.32857em;
+    border: none;
+    padding-block-end: 10px;
+    padding-block-start: 10px;
+    padding-inline-end: 25px;
+    padding-inline-start: 25px;
+    text-transform: uppercase;
+}
+
+.next {
+    background-color: white;
+    color: #C2C2C2;
+    font-size: 1.32857em;
+    border: none;
+    padding-block-end: 10px;
+    padding-block-start: 10px;
+    padding-inline-end: 25px;
+    padding-inline-start: 25px;
+    text-transform: uppercase;
+}
+
+.border {
+    border-inline-end: solid 1px;
+    border-inline-start: solid 1px;
+    border-color: #C2C2C2;
+    padding-block-end: 10px;
+}

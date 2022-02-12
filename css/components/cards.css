@@ -1,0 +1,46 @@
+.card .text-position {
+    padding-inline-end: 25px;
+}
+
+
+/* .card .card-image {
+    padding-inline-end: 35px
+} */
+
+.card .card-title {
+    text-transform: uppercase;
+    padding-inline-end: 25px;
+    font-weight: 400;
+}
+
+.card .card-text {
+    padding-block-end: 10px;
+    padding-block-start: 10px;
+}
+
+.card .card-text2 {
+    padding-block-end: 10px;
+}
+
+.card .card-button {
+    background-color: white;
+    color: #C2C2C2;
+    border: 2px solid #C2C2C2;
+    font-size: 1.17857em;
+    border-radius: 30px;
+    padding-block-end: 10px;
+    padding-block-start: 10px;
+    padding-inline-end: 25px;
+    padding-inline-start: 25px;
+}
+
+.card .card-button:hover {
+    border: 2px solid #58C93A;
+    color: #58C93A;
+    cursor: pointer;
+}
+
+.card .card-button:hover::after {
+    color: #58C93A;
+    content: " --->";
+}
