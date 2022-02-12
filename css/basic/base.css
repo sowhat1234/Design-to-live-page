@@ -7,15 +7,6 @@ body {
     font-size: 0.875rem;
 }
 
-img {
-    width: 50%;
-}
-
-.img-logo {
-    width: 50px;
-    height: 50px;
-}
-
 h2,
 p {
     margin: 0;
@@ -29,6 +20,26 @@ p {
     font-size: 1.142857em;
 }
 
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.139995em;
+}
+
 button:hover {
     cursor: pointer;
+}
+
+.main-flex-container {
+    border-inline-end: solid 1px;
+    border-inline-start: solid 1px;
+    border-block-end: solid 1px;
+    border-color: #C2C2C2;
+    padding-block-start: 50px;
 }

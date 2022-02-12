@@ -21,6 +21,7 @@
         display: block;
         text-align: center;
         padding: 1.125rem 1.125rem;
+        color: var(--clr2);
     }
     .main-nav li {
         border-bottom: solid 1px;
@@ -50,11 +51,19 @@
     .img-logo {
         margin-inline-start: 15px;
     }
-    .modal-content .img-modal {
-        width: 90%;
+    .modal-content {
+        width: 70%;
+        height: 80%;
     }
     .modal-content .img-modal {
+        width: 90%;
         display: table;
+    }
+    .img-logo-header {
+        width: 20%;
+    }
+    li.menu-item:last-child {
+        border-right: unset;
     }
 }
 
@@ -106,6 +115,9 @@
         width: 80%;
         height: 300px;
     }
+    img {
+        width: 50%;
+    }
 }
 
 
@@ -114,5 +126,8 @@
 @media (min-width: 1140px) {
     .main-layout {
         max-width: 1060px;
+    }
+    img {
+        width: 40%;
     }
 }
